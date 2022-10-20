@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : Ex20.c
+ Name        : pj.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -9,9 +9,12 @@
  */
 
 #include <stdio.h>
-#include <stdlib.h>
-
-int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	return EXIT_SUCCESS;
+int main (int argc,char**argv)
+{
+	int a;
+	printf(" enter a number : " );
+	fflush(stdin);fflush(stdout);
+	scanf(" %d ", &a );
+	printf(" value = %d ", a );
+	return 0 ;
 }
